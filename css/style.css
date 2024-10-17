@@ -7,8 +7,7 @@
     position: relative;
 }
 .absolute{
-    width: 340px;
-    width: 80%;
+    width: 90%;
     position: absolute;
     bottom: 28px;
     left: 21px;
@@ -48,13 +47,19 @@
     text-align: left;
     color: #000000;
 }
+.right-mini{
+    border: 1px solid #000000;
+}
 .right-mini-text{
-    width: 90%x;
     margin: 18px 15px 12px 20px;
    
 }
 .right-mini-text-down{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 11px;
+    -webkit-column-gap: 11px;
+       -moz-column-gap: 11px;
+            column-gap: 11px;
     margin-top: 12px;
 }
