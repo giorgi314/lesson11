@@ -1,0 +1,60 @@
+.container{
+    min-width:320px;
+    width: 100%;
+
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    width: 340px;
+    width: 80%;
+    position: absolute;
+    bottom: 28px;
+    left: 21px;
+}
+.p{
+    font-family: Kanit;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.94px;
+    text-align: left;
+    color:#FFFFFF;
+}
+.h2{
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35.88px;
+    text-align: left;
+    color:#FFFFFF;
+}
+.left-up{
+    margin-bottom: 36px;
+}
+.h3{
+    font-family: Kanit;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32.89px;
+    text-align: left;
+    color: #000000;
+}
+.p-tag{
+    font-family: Kanit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.93px;
+    text-align: left;
+    color: #000000;
+}
+.right-mini-text{
+    width: 90%x;
+    margin: 18px 15px 12px 20px;
+   
+}
+.right-mini-text-down{
+    display: flex;
+    column-gap: 11px;
+    margin-top: 12px;
+}

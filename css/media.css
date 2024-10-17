@@ -1,0 +1,22 @@
+@media(min-width:320px){
+    .container{
+        min-width: 320px;
+    }
+    .left{
+        width: 100%;
+        
+    }
+    .right{
+        width: 94%;
+        margin: 0 auto;
+        margin-top: 36px;
+        margin-bottom: 160px;
+    }
+    .image{
+        width: 100%;
+    }
+    .minimid, .last{
+        display: none;
+    }
+}
+    
