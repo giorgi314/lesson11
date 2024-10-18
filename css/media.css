@@ -19,6 +19,7 @@
     .minimid, .last{
         display: none;
     }
+    
 }
 @media(min-width:834px) {
     .container{
@@ -53,9 +54,16 @@
         font-size: 28px;
         line-height: 41.86px;
     }
+    .relative{
+        background-image: url(../images/Rectangle12.jpg);
+    }
+    .relative1{
+        background-image: url(../images/Rectangle13.jpg);
+    }
 }
 @media(min-width:1024px){
 .container{
+    margin-bottom: 71px;
     width: 82%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -63,6 +71,7 @@
     -webkit-column-gap: 20px;
        -moz-column-gap: 20px;
             column-gap: 20px;
+            
 }
 .left{
     width: 780px;
@@ -78,6 +87,7 @@
             flex-direction: column;
     margin-top: 0;
     row-gap: 23px;
+    margin-bottom: 0;
 }
 .last{
     display: -webkit-box;
@@ -95,5 +105,11 @@
 .p-tag{
     font-size: 16px;
     line-height: 23.92px;
+}
+.relative, .relative1{
+    height: 400px;
+}
+.right-mini{
+    height: 280px;
 }
 }

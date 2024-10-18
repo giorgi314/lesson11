@@ -4,13 +4,28 @@
 
 }
 .relative{
-    position: relative;
+    height: 359px;
+    width: 100%;
+    background-image: url(../images/3201.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.relative1{
+    height: 359px;
+    width: 100%;
+    background-image: url(../images/3202.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .absolute{
     width: 90%;
-    position: absolute;
-    bottom: 28px;
-    left: 21px;
+    margin-bottom: 35px;
 }
 .p{
     font-family: Kanit;
@@ -63,3 +78,8 @@
             column-gap: 11px;
     margin-top: 12px;
 }
+
+
+
+
+
